@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3908B65A19C9FA3A00984088 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3908B65919C9FA3A00984088 /* FacebookSDK.framework */; };
+		392AD84C19B5298200C57A34 /* share_popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AD84B19B5298200C57A34 /* share_popup.png */; };
+		392AD84E19B529DC00C57A34 /* x_alt-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AD84D19B529DC00C57A34 /* x_alt-512.png */; };
+		392AD85119B52CA000C57A34 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AD84F19B52CA000C57A34 /* facebook.png */; };
+		392AD85219B52CA000C57A34 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AD85019B52CA000C57A34 /* twitter.png */; };
+		392AD85419B52F9700C57A34 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392AD85319B52F9700C57A34 /* Social.framework */; };
+		392AD85A19B5503600C57A34 /* tapToOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AD85919B5503600C57A34 /* tapToOpen.png */; };
+		392AD85C19B5552900C57A34 /* LyftEst_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AD85B19B5552900C57A34 /* LyftEst_1024.png */; };
+		392AD85E19B5556300C57A34 /* LyftOrUber.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AD85D19B5556300C57A34 /* LyftOrUber.png */; };
+		39411B4118FAED4400AA03D3 /* LyftEst_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 39411B3E18FAED4400AA03D3 /* LyftEst_58.png */; };
+		39411B4218FAED4400AA03D3 /* LyftEst_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 39411B3F18FAED4400AA03D3 /* LyftEst_80.png */; };
+		39411B4318FAED4400AA03D3 /* LyftEst_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 39411B4018FAED4400AA03D3 /* LyftEst_120.png */; };
+		3943D966190C58BE0067A724 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3943D965190C58BE0067A724 /* iAd.framework */; };
+		39853A1718F904CA00FBE7EB /* 03-loopback.png in Resources */ = {isa = PBXBuildFile; fileRef = 39853A1618F904CA00FBE7EB /* 03-loopback.png */; };
+		39853A1D18F9140400FBE7EB /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39853A1C18F9140400FBE7EB /* ResultsViewController.m */; };
+		39853A1F18F996D400FBE7EB /* Lyft-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39853A1E18F996D400FBE7EB /* Lyft-Logo.png */; };
+		39853A2118F9978E00FBE7EB /* uber-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39853A2018F9978E00FBE7EB /* uber-logo.png */; };
+		39994A1D18F20E97002F2534 /* myInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39994A1C18F20E97002F2534 /* myInfo.png */; };
+		39CB7C6918E24A2E008C3BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7C6818E24A2E008C3BC6 /* Foundation.framework */; };
+		39CB7C6B18E24A2E008C3BC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7C6A18E24A2E008C3BC6 /* CoreGraphics.framework */; };
+		39CB7C6D18E24A2E008C3BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7C6C18E24A2E008C3BC6 /* UIKit.framework */; };
+		39CB7C7318E24A2E008C3BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39CB7C7118E24A2E008C3BC6 /* InfoPlist.strings */; };
+		39CB7C7518E24A2E008C3BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CB7C7418E24A2E008C3BC6 /* main.m */; };
+		39CB7C7918E24A2E008C3BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CB7C7818E24A2E008C3BC6 /* AppDelegate.m */; };
+		39CB7C7C18E24A2E008C3BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CB7C7A18E24A2E008C3BC6 /* Main.storyboard */; };
+		39CB7C7F18E24A2E008C3BC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CB7C7E18E24A2E008C3BC6 /* ViewController.m */; };
+		39CB7C8118E24A2E008C3BC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CB7C8018E24A2E008C3BC6 /* Images.xcassets */; };
+		39CB7C8818E24A2E008C3BC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7C8718E24A2E008C3BC6 /* XCTest.framework */; };
+		39CB7C8918E24A2E008C3BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7C6818E24A2E008C3BC6 /* Foundation.framework */; };
+		39CB7C8A18E24A2E008C3BC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7C6C18E24A2E008C3BC6 /* UIKit.framework */; };
+		39CB7C9218E24A2E008C3BC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39CB7C9018E24A2E008C3BC6 /* InfoPlist.strings */; };
+		39CB7C9418E24A2E008C3BC6 /* LyftEstimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CB7C9318E24A2E008C3BC6 /* LyftEstimatorTests.m */; };
+		39CB7C9E18E24AB6008C3BC6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7C9D18E24AB6008C3BC6 /* MapKit.framework */; };
+		39CB7CA118E24D95008C3BC6 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CB7CA018E24D95008C3BC6 /* CityTableViewController.m */; };
+		39CB7CA318E27C3A008C3BC6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CA218E27C3A008C3BC6 /* Parse.framework */; };
+		39CB7CA518E2806F008C3BC6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CA418E2806F008C3BC6 /* AudioToolbox.framework */; };
+		39CB7CA718E2807B008C3BC6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CA618E2807B008C3BC6 /* CFNetwork.framework */; };
+		39CB7CA918E2808C008C3BC6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CA818E2808C008C3BC6 /* CoreLocation.framework */; };
+		39CB7CAB18E28098008C3BC6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CAA18E28098008C3BC6 /* libz.dylib */; };
+		39CB7CAD18E280A0008C3BC6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CAC18E280A0008C3BC6 /* MobileCoreServices.framework */; };
+		39CB7CAF18E280A7008C3BC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CAE18E280A7008C3BC6 /* QuartzCore.framework */; };
+		39CB7CB118E280B0008C3BC6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CB018E280B0008C3BC6 /* Security.framework */; };
+		39CB7CB318E280B5008C3BC6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CB218E280B5008C3BC6 /* StoreKit.framework */; };
+		39CB7CB518E280BF008C3BC6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB7CB418E280BF008C3BC6 /* SystemConfiguration.framework */; };
+		39CB7CC818E2D46E008C3BC6 /* LyftEst_iPhoneSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 39CB7CC618E2D46E008C3BC6 /* LyftEst_iPhoneSmall.png */; };
+		39CB7CC918E2D46E008C3BC6 /* LyftEst_iPhoneTall.png in Resources */ = {isa = PBXBuildFile; fileRef = 39CB7CC718E2D46E008C3BC6 /* LyftEst_iPhoneTall.png */; };
+		39CB7CCD18E3115A008C3BC6 /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39CB7CCC18E3115A008C3BC6 /* menu-icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39CB7C8B18E24A2E008C3BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39CB7C5D18E24A2E008C3BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39CB7C6418E24A2E008C3BC6;
+			remoteInfo = LyftEstimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3908B65919C9FA3A00984088 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		392AD84B19B5298200C57A34 /* share_popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_popup.png; sourceTree = "<group>"; };
+		392AD84D19B529DC00C57A34 /* x_alt-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_alt-512.png"; sourceTree = "<group>"; };
+		392AD84F19B52CA000C57A34 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		392AD85019B52CA000C57A34 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		392AD85319B52F9700C57A34 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		392AD85919B5503600C57A34 /* tapToOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapToOpen.png; sourceTree = "<group>"; };
+		392AD85B19B5552900C57A34 /* LyftEst_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyftEst_1024.png; sourceTree = "<group>"; };
+		392AD85D19B5556300C57A34 /* LyftOrUber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyftOrUber.png; sourceTree = "<group>"; };
+		39411B3E18FAED4400AA03D3 /* LyftEst_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyftEst_58.png; sourceTree = "<group>"; };
+		39411B3F18FAED4400AA03D3 /* LyftEst_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyftEst_80.png; sourceTree = "<group>"; };
+		39411B4018FAED4400AA03D3 /* LyftEst_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyftEst_120.png; sourceTree = "<group>"; };
+		3943D965190C58BE0067A724 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		39853A1618F904CA00FBE7EB /* 03-loopback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-loopback.png"; sourceTree = "<group>"; };
+		39853A1B18F9140400FBE7EB /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = ../ResultsViewController.h; sourceTree = "<group>"; };
+		39853A1C18F9140400FBE7EB /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = ../ResultsViewController.m; sourceTree = "<group>"; };
+		39853A1E18F996D400FBE7EB /* Lyft-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lyft-Logo.png"; sourceTree = "<group>"; };
+		39853A2018F9978E00FBE7EB /* uber-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uber-logo.png"; sourceTree = "<group>"; };
+		39994A1C18F20E97002F2534 /* myInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myInfo.png; sourceTree = "<group>"; };
+		39CB7C6518E24A2E008C3BC6 /* LyftEstimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyftEstimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CB7C6818E24A2E008C3BC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39CB7C6A18E24A2E008C3BC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39CB7C6C18E24A2E008C3BC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39CB7C7018E24A2E008C3BC6 /* LyftEstimator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyftEstimator-Info.plist"; sourceTree = "<group>"; };
+		39CB7C7218E24A2E008C3BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39CB7C7418E24A2E008C3BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39CB7C7618E24A2E008C3BC6 /* LyftEstimator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LyftEstimator-Prefix.pch"; sourceTree = "<group>"; };
+		39CB7C7718E24A2E008C3BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39CB7C7818E24A2E008C3BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39CB7C7B18E24A2E008C3BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39CB7C7D18E24A2E008C3BC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39CB7C7E18E24A2E008C3BC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39CB7C8018E24A2E008C3BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39CB7C8618E24A2E008C3BC6 /* LyftEstimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftEstimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CB7C8718E24A2E008C3BC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39CB7C8F18E24A2E008C3BC6 /* LyftEstimatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyftEstimatorTests-Info.plist"; sourceTree = "<group>"; };
+		39CB7C9118E24A2E008C3BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39CB7C9318E24A2E008C3BC6 /* LyftEstimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyftEstimatorTests.m; sourceTree = "<group>"; };
+		39CB7C9D18E24AB6008C3BC6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		39CB7C9F18E24D95008C3BC6 /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		39CB7CA018E24D95008C3BC6 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		39CB7CA218E27C3A008C3BC6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		39CB7CA418E2806F008C3BC6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		39CB7CA618E2807B008C3BC6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		39CB7CA818E2808C008C3BC6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		39CB7CAA18E28098008C3BC6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		39CB7CAC18E280A0008C3BC6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		39CB7CAE18E280A7008C3BC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		39CB7CB018E280B0008C3BC6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		39CB7CB218E280B5008C3BC6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		39CB7CB418E280BF008C3BC6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		39CB7CC618E2D46E008C3BC6 /* LyftEst_iPhoneSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyftEst_iPhoneSmall.png; sourceTree = "<group>"; };
+		39CB7CC718E2D46E008C3BC6 /* LyftEst_iPhoneTall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyftEst_iPhoneTall.png; sourceTree = "<group>"; };
+		39CB7CCC18E3115A008C3BC6 /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39CB7C6218E24A2E008C3BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3908B65A19C9FA3A00984088 /* FacebookSDK.framework in Frameworks */,
+				392AD85419B52F9700C57A34 /* Social.framework in Frameworks */,
+				3943D966190C58BE0067A724 /* iAd.framework in Frameworks */,
+				39CB7CB518E280BF008C3BC6 /* SystemConfiguration.framework in Frameworks */,
+				39CB7CB318E280B5008C3BC6 /* StoreKit.framework in Frameworks */,
+				39CB7CB118E280B0008C3BC6 /* Security.framework in Frameworks */,
+				39CB7CAF18E280A7008C3BC6 /* QuartzCore.framework in Frameworks */,
+				39CB7CAD18E280A0008C3BC6 /* MobileCoreServices.framework in Frameworks */,
+				39CB7CAB18E28098008C3BC6 /* libz.dylib in Frameworks */,
+				39CB7CA918E2808C008C3BC6 /* CoreLocation.framework in Frameworks */,
+				39CB7C6B18E24A2E008C3BC6 /* CoreGraphics.framework in Frameworks */,
+				39CB7CA718E2807B008C3BC6 /* CFNetwork.framework in Frameworks */,
+				39CB7CA518E2806F008C3BC6 /* AudioToolbox.framework in Frameworks */,
+				39CB7CA318E27C3A008C3BC6 /* Parse.framework in Frameworks */,
+				39CB7C9E18E24AB6008C3BC6 /* MapKit.framework in Frameworks */,
+				39CB7C6D18E24A2E008C3BC6 /* UIKit.framework in Frameworks */,
+				39CB7C6918E24A2E008C3BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CB7C8318E24A2E008C3BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CB7C8818E24A2E008C3BC6 /* XCTest.framework in Frameworks */,
+				39CB7C8A18E24A2E008C3BC6 /* UIKit.framework in Frameworks */,
+				39CB7C8918E24A2E008C3BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39CB7C5C18E24A2E008C3BC6 = {
+			isa = PBXGroup;
+			children = (
+				39CB7C6E18E24A2E008C3BC6 /* LyftEstimator */,
+				39CB7C8D18E24A2E008C3BC6 /* LyftEstimatorTests */,
+				39CB7C6718E24A2E008C3BC6 /* Frameworks */,
+				39CB7C6618E24A2E008C3BC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39CB7C6618E24A2E008C3BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39CB7C6518E24A2E008C3BC6 /* LyftEstimator.app */,
+				39CB7C8618E24A2E008C3BC6 /* LyftEstimatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39CB7C6718E24A2E008C3BC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3908B65919C9FA3A00984088 /* FacebookSDK.framework */,
+				392AD85319B52F9700C57A34 /* Social.framework */,
+				3943D965190C58BE0067A724 /* iAd.framework */,
+				39CB7CB418E280BF008C3BC6 /* SystemConfiguration.framework */,
+				39CB7CB218E280B5008C3BC6 /* StoreKit.framework */,
+				39CB7CB018E280B0008C3BC6 /* Security.framework */,
+				39CB7CAE18E280A7008C3BC6 /* QuartzCore.framework */,
+				39CB7CAC18E280A0008C3BC6 /* MobileCoreServices.framework */,
+				39CB7CAA18E28098008C3BC6 /* libz.dylib */,
+				39CB7CA818E2808C008C3BC6 /* CoreLocation.framework */,
+				39CB7CA618E2807B008C3BC6 /* CFNetwork.framework */,
+				39CB7CA418E2806F008C3BC6 /* AudioToolbox.framework */,
+				39CB7CA218E27C3A008C3BC6 /* Parse.framework */,
+				39CB7C9D18E24AB6008C3BC6 /* MapKit.framework */,
+				39CB7C6818E24A2E008C3BC6 /* Foundation.framework */,
+				39CB7C6A18E24A2E008C3BC6 /* CoreGraphics.framework */,
+				39CB7C6C18E24A2E008C3BC6 /* UIKit.framework */,
+				39CB7C8718E24A2E008C3BC6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39CB7C6E18E24A2E008C3BC6 /* LyftEstimator */ = {
+			isa = PBXGroup;
+			children = (
+				39CB7C7718E24A2E008C3BC6 /* AppDelegate.h */,
+				39CB7C7818E24A2E008C3BC6 /* AppDelegate.m */,
+				39CB7C7A18E24A2E008C3BC6 /* Main.storyboard */,
+				39CB7C9F18E24D95008C3BC6 /* CityTableViewController.h */,
+				39CB7CA018E24D95008C3BC6 /* CityTableViewController.m */,
+				39CB7C7D18E24A2E008C3BC6 /* ViewController.h */,
+				39CB7C7E18E24A2E008C3BC6 /* ViewController.m */,
+				39853A1B18F9140400FBE7EB /* ResultsViewController.h */,
+				39853A1C18F9140400FBE7EB /* ResultsViewController.m */,
+				39CB7C8018E24A2E008C3BC6 /* Images.xcassets */,
+				39CB7C6F18E24A2E008C3BC6 /* Supporting Files */,
+			);
+			path = LyftEstimator;
+			sourceTree = "<group>";
+		};
+		39CB7C6F18E24A2E008C3BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				392AD84B19B5298200C57A34 /* share_popup.png */,
+				392AD85919B5503600C57A34 /* tapToOpen.png */,
+				39853A1618F904CA00FBE7EB /* 03-loopback.png */,
+				392AD84D19B529DC00C57A34 /* x_alt-512.png */,
+				39853A1E18F996D400FBE7EB /* Lyft-Logo.png */,
+				392AD84F19B52CA000C57A34 /* facebook.png */,
+				392AD85019B52CA000C57A34 /* twitter.png */,
+				39853A2018F9978E00FBE7EB /* uber-logo.png */,
+				392AD85D19B5556300C57A34 /* LyftOrUber.png */,
+				39CB7CC618E2D46E008C3BC6 /* LyftEst_iPhoneSmall.png */,
+				39CB7CC718E2D46E008C3BC6 /* LyftEst_iPhoneTall.png */,
+				39411B3E18FAED4400AA03D3 /* LyftEst_58.png */,
+				39411B3F18FAED4400AA03D3 /* LyftEst_80.png */,
+				39411B4018FAED4400AA03D3 /* LyftEst_120.png */,
+				392AD85B19B5552900C57A34 /* LyftEst_1024.png */,
+				39994A1C18F20E97002F2534 /* myInfo.png */,
+				39CB7CCC18E3115A008C3BC6 /* menu-icon@2x.png */,
+				39CB7C7418E24A2E008C3BC6 /* main.m */,
+				39CB7C7618E24A2E008C3BC6 /* LyftEstimator-Prefix.pch */,
+				39CB7C7018E24A2E008C3BC6 /* LyftEstimator-Info.plist */,
+				39CB7C7118E24A2E008C3BC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39CB7C8D18E24A2E008C3BC6 /* LyftEstimatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				39CB7C9318E24A2E008C3BC6 /* LyftEstimatorTests.m */,
+				39CB7C8E18E24A2E008C3BC6 /* Supporting Files */,
+			);
+			path = LyftEstimatorTests;
+			sourceTree = "<group>";
+		};
+		39CB7C8E18E24A2E008C3BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39CB7C8F18E24A2E008C3BC6 /* LyftEstimatorTests-Info.plist */,
+				39CB7C9018E24A2E008C3BC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39CB7C6418E24A2E008C3BC6 /* LyftEstimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CB7C9718E24A2E008C3BC6 /* Build configuration list for PBXNativeTarget "LyftEstimator" */;
+			buildPhases = (
+				39CB7C6118E24A2E008C3BC6 /* Sources */,
+				39CB7C6218E24A2E008C3BC6 /* Frameworks */,
+				39CB7C6318E24A2E008C3BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyftEstimator;
+			productName = LyftEstimator;
+			productReference = 39CB7C6518E24A2E008C3BC6 /* LyftEstimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39CB7C8518E24A2E008C3BC6 /* LyftEstimatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CB7C9A18E24A2E008C3BC6 /* Build configuration list for PBXNativeTarget "LyftEstimatorTests" */;
+			buildPhases = (
+				39CB7C8218E24A2E008C3BC6 /* Sources */,
+				39CB7C8318E24A2E008C3BC6 /* Frameworks */,
+				39CB7C8418E24A2E008C3BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39CB7C8C18E24A2E008C3BC6 /* PBXTargetDependency */,
+			);
+			name = LyftEstimatorTests;
+			productName = LyftEstimatorTests;
+			productReference = 39CB7C8618E24A2E008C3BC6 /* LyftEstimatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39CB7C5D18E24A2E008C3BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Paul Rolfe";
+				TargetAttributes = {
+					39CB7C6418E24A2E008C3BC6 = {
+						DevelopmentTeam = U2HL2W372B;
+					};
+					39CB7C8518E24A2E008C3BC6 = {
+						TestTargetID = 39CB7C6418E24A2E008C3BC6;
+					};
+				};
+			};
+			buildConfigurationList = 39CB7C6018E24A2E008C3BC6 /* Build configuration list for PBXProject "LyftEstimator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39CB7C5C18E24A2E008C3BC6;
+			productRefGroup = 39CB7C6618E24A2E008C3BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39CB7C6418E24A2E008C3BC6 /* LyftEstimator */,
+				39CB7C8518E24A2E008C3BC6 /* LyftEstimatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39CB7C6318E24A2E008C3BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392AD85A19B5503600C57A34 /* tapToOpen.png in Resources */,
+				392AD85C19B5552900C57A34 /* LyftEst_1024.png in Resources */,
+				39CB7CC818E2D46E008C3BC6 /* LyftEst_iPhoneSmall.png in Resources */,
+				39CB7CCD18E3115A008C3BC6 /* menu-icon@2x.png in Resources */,
+				39994A1D18F20E97002F2534 /* myInfo.png in Resources */,
+				39CB7C8118E24A2E008C3BC6 /* Images.xcassets in Resources */,
+				39CB7C7318E24A2E008C3BC6 /* InfoPlist.strings in Resources */,
+				39411B4118FAED4400AA03D3 /* LyftEst_58.png in Resources */,
+				392AD84E19B529DC00C57A34 /* x_alt-512.png in Resources */,
+				39411B4318FAED4400AA03D3 /* LyftEst_120.png in Resources */,
+				39853A2118F9978E00FBE7EB /* uber-logo.png in Resources */,
+				392AD85E19B5556300C57A34 /* LyftOrUber.png in Resources */,
+				392AD85119B52CA000C57A34 /* facebook.png in Resources */,
+				392AD85219B52CA000C57A34 /* twitter.png in Resources */,
+				392AD84C19B5298200C57A34 /* share_popup.png in Resources */,
+				39411B4218FAED4400AA03D3 /* LyftEst_80.png in Resources */,
+				39CB7CC918E2D46E008C3BC6 /* LyftEst_iPhoneTall.png in Resources */,
+				39853A1F18F996D400FBE7EB /* Lyft-Logo.png in Resources */,
+				39CB7C7C18E24A2E008C3BC6 /* Main.storyboard in Resources */,
+				39853A1718F904CA00FBE7EB /* 03-loopback.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CB7C8418E24A2E008C3BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CB7C9218E24A2E008C3BC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39CB7C6118E24A2E008C3BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CB7CA118E24D95008C3BC6 /* CityTableViewController.m in Sources */,
+				39CB7C7F18E24A2E008C3BC6 /* ViewController.m in Sources */,
+				39CB7C7918E24A2E008C3BC6 /* AppDelegate.m in Sources */,
+				39CB7C7518E24A2E008C3BC6 /* main.m in Sources */,
+				39853A1D18F9140400FBE7EB /* ResultsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CB7C8218E24A2E008C3BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CB7C9418E24A2E008C3BC6 /* LyftEstimatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39CB7C8C18E24A2E008C3BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39CB7C6418E24A2E008C3BC6 /* LyftEstimator */;
+			targetProxy = 39CB7C8B18E24A2E008C3BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39CB7C7118E24A2E008C3BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CB7C7218E24A2E008C3BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39CB7C7A18E24A2E008C3BC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CB7C7B18E24A2E008C3BC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39CB7C9018E24A2E008C3BC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CB7C9118E24A2E008C3BC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39CB7C9518E24A2E008C3BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39CB7C9618E24A2E008C3BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39CB7C9818E24A2E008C3BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/paulrolfe/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyftEstimator/LyftEstimator-Prefix.pch";
+				INFOPLIST_FILE = "LyftEstimator/LyftEstimator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39CB7C9918E24A2E008C3BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/paulrolfe/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyftEstimator/LyftEstimator-Prefix.pch";
+				INFOPLIST_FILE = "LyftEstimator/LyftEstimator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39CB7C9B18E24A2E008C3BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LyftEstimator.app/LyftEstimator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyftEstimator/LyftEstimator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LyftEstimatorTests/LyftEstimatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39CB7C9C18E24A2E008C3BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LyftEstimator.app/LyftEstimator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LyftEstimator/LyftEstimator-Prefix.pch";
+				INFOPLIST_FILE = "LyftEstimatorTests/LyftEstimatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39CB7C6018E24A2E008C3BC6 /* Build configuration list for PBXProject "LyftEstimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CB7C9518E24A2E008C3BC6 /* Debug */,
+				39CB7C9618E24A2E008C3BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39CB7C9718E24A2E008C3BC6 /* Build configuration list for PBXNativeTarget "LyftEstimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CB7C9818E24A2E008C3BC6 /* Debug */,
+				39CB7C9918E24A2E008C3BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39CB7C9A18E24A2E008C3BC6 /* Build configuration list for PBXNativeTarget "LyftEstimatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CB7C9B18E24A2E008C3BC6 /* Debug */,
+				39CB7C9C18E24A2E008C3BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39CB7C5D18E24A2E008C3BC6 /* Project object */;
+}
